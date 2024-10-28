@@ -1,0 +1,23 @@
+{
+  "name": "blackjack",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "coms": "node src/reg-coms.js"
+  },
+  "keywords": ["blackjack","g2u","game","typescript","card-game","nodejs"],
+  "author": "77EnderGuy77",
+  "license": "MIT",
+  "description": "The bot that helps you to play blackjack in discord",
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.1.0",
+    "ts-node": "^10.9.2"
+  }
+}
